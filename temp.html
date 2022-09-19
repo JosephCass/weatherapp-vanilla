@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js" type="module"></script>
+  </head>
+  <body>
+    <div class="tools-bar">
+      <h1 class="app-header">
+        <img src="headerimage.png" alt="weather app logo" /> Weather App
+      </h1>
+      <div class="search-container">
+        <label class="search-label" for="searchCity">Search City</label>
+        <input id="searchCity" type="search" />
+        <button class="search-city-btn">Search</button>
+        <p class="search-error"></p>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="weather-display-box">
+        <h2 class="weather-city"></h2>
+        <p class="weather-temp"></p>
+        <img class="weather-icon" src="" alt="" />    
+        <p class="weather-details"></p>     
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
